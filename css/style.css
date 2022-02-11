@@ -43,3 +43,56 @@ h3 {
     max-width: 865px;
     padding: 0 5px;
 }
+
+.header__container{
+   display: flex;
+   justify-content: end;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 33px;
+   
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+   margin: 100px;
+}
+
+.item {
+    margin-left: 150px;
+}
+
+.about__img {
+   border-radius: 50%;
+   width: 132px;
+   height: 132px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.button {
+    border:rgb(221, 76, 39);
+    background-color: rgb(221, 76, 39);
+    color: white;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.about__title {
+    padding: 10px;
+}
+
+.about__text {
+    padding: 10px;
+}
